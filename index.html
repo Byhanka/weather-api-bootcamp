@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app converts celsius into fahrenheit">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Weather API</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1> What Is The Temperature in your city? </h1>
+		
+		<form>
+			<label for ='celcius'> Get the weather </lable>
+			<input id="city" type="text" placeholder="City">
+			<input id="country" type="text" placeholder="Country"></input>
+		</form>
+
+		<button id="result" type="button" name="button">Search</button>
+
+		<h2 class="city"></h2>
+		<h2 class="country"></h2>
+		<h3 id="temp"></h3>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
